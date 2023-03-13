@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import logoImg from "../../images/logo.png";
+import logoImg from "../../images/logobook.png";
 import {HiOutlineMenuAlt3} from "react-icons/hi";
 import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../../redux/action';
@@ -25,8 +25,7 @@ const Navbar = () => {
       <div className='container navbar-content flex'>
         <div className='brand-and-toggler flex flex-sb'>
           <Link to = "/" className='navbar-brand flex'>
-            <img src = {logoImg} alt = "site logo" />
-            <span className='text-uppercase fw-7 fs-24 ls-1'>bookhub</span>
+            <img style={{width: '257px'}} width={'257px'} src = {logoImg} alt = "site logo" />
           </Link>
           <button type = "button" className='navbar-toggler-btn' onClick={handleNavbar}>
             <HiOutlineMenuAlt3 size = {35} style = {{

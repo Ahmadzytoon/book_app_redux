@@ -23,13 +23,14 @@ body{
   left: 50%; */
   /* transform: translate(-50%,-50%); */
   width: 75%;
+  height: 550px;
   display: flex;
   box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
 }
 
 .wrapper .left{
   width: 35%;
-  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  background: linear-gradient(to right,brown,#ac4242);
   padding: 30px 25px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -53,7 +54,7 @@ body{
 .wrapper .right{
   width: 65%;
   background: #fff;
-  padding: 30px 25px;
+  padding: 120px 25px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -102,9 +103,9 @@ body{
 }
 
 .wrapper .social_media ul li{
-  width: 45px;
+  width: 65px;
   height: 45px;
-  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  background: linear-gradient(to right,brown,#ac4242);
   margin-right: 10px;
   border-radius: 5px;
   text-align: center;
@@ -128,16 +129,19 @@ body{
     margin-right: 500px;
     padding:0 10px 10px 35px;
     font-size: 14px;
-    background-color: whitesmoke;
+    background-color: #191938;
   }
   .profileForm h1{
-    color: #5369f8;
+    color: white;
     margin-left: 136px;
     margin-bottom: 35px;
   }
   
   .profileForm input{
     display: block;
+    color: #353c4e;
+    font-size: 14px;
+    padding: 3px;
     margin-bottom: 25px;
     width: 90%;
     border-radius: 8px;

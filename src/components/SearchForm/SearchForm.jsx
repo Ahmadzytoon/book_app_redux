@@ -15,7 +15,7 @@ const SearchForm = ({ sr,setSr}) => {
         <div className='search-form-content'>
           <form className='search-form' >
             <div className='search-form-elem flex flex-sb bg-white'>
-              <input type = "text" className='form-control' placeholder='The Lost World ...'  onChange={handelChange}/>
+              <input type = "text" className='form-control' placeholder='Search A book ...'  onChange={handelChange}/>
               <button type = "submit" className='flex flex-c' >
                 <FaSearch className='icon' size = {32} />
               </button>

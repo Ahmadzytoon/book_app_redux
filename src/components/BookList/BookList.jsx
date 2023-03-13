@@ -21,8 +21,7 @@ const BookList = () => {
 
   useEffect(()=>{
     getBooks();
-    console.log(admin);
-    console.log(search);
+   
         },[search])
 
       const getBooks =()=>{

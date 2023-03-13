@@ -114,7 +114,7 @@ const deleteBook = (id) => {
 
                   <span className='fw-6'>
                     <Link to={`/editBook/${id}`}>
-                        edit
+                       <button className='btn'>Edit</button> 
                     </Link>
                   </span>
 
@@ -122,7 +122,7 @@ const deleteBook = (id) => {
               <div>
                     <span className='fw-6'> 
                         <Link>
-                            <button variant="danger" onClick={()=>deleteBook(id)}>Delete</button>
+                            <button className='btn' variant="danger" onClick={()=>deleteBook(id)}>Delete</button>
                         </Link> 
                       </span>
 

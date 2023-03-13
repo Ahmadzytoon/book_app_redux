@@ -57,17 +57,17 @@ export default function EditBook() {
     <>
         
          {/*  */}
-<div id= "formm">
+<div id= "formm" style={{margin:"27px auto"}}>
 
 {/*  Button Add to Group */}
-  <h2 style={{color:"white"}}>Create Book</h2>
+  <h2 style={{color:"white"}}>Edit Book</h2>
   <br />
 
 
   
    {/*  Form Add to Group */}
 
-   <section className="section_form">
+   <section className="section_form" >
    <form id="consultation-form" className="feed-form" onSubmit={handleSubmit}>
 
 
@@ -81,7 +81,7 @@ export default function EditBook() {
 
     <br/>
 
-    <button className="BtnAdd"> Create Group </button>
+    <button className="BtnAdd"> Edit Book </button>
    </form>
  </section>
 </div>
